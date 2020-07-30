@@ -1,10 +1,11 @@
 export default {
-    entry: 'src/index.js',
+    entry: 'src/index.tsx',
     doc: {
         themeConfig: { mode: 'light' },
         base: '/your-repo',
-        src: './doc',
+        src: './src',
         files: '**/*.{md,markdown,mdx}',
+        typescript: true
     },
     file: 'autohome',
     esm: {
