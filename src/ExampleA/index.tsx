@@ -1,10 +1,9 @@
 import * as React from 'react';
-export default function () {
+const Components =  function () {
     return <div>xusai</div>
 }
-const config = {
+
+Components.config = {
     xusai: 'xusai'
 }
-export {
-    config
-};
+export default Components
