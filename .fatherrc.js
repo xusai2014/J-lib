@@ -1,8 +1,10 @@
 export default {
     entry: 'src/index.js',
     doc: {
-        themeConfig: { mode: 'dark' },
-        base: '/your-repo'
+        themeConfig: { mode: 'light' },
+        base: '/your-repo',
+        src: './doc',
+        files: '**/*.{md,markdown,mdx}',
     },
     file: 'autohome',
     esm: {
