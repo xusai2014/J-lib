@@ -1,5 +1,5 @@
 export default {
-    entry: 'src/index.tsx',
+    entry: 'src/index.ts',
     doc: {
         themeConfig: { mode: 'light' },
         base: '/your-repo',

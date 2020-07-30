@@ -1,5 +1,4 @@
-import ExampleA from './ExampleA';
-
-export default {
-    ExampleA
-}
+export {
+    default as ExampleA,
+    config  as ExampleAJSOn
+} from './ExampleA';
